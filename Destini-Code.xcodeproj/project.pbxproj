@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445127282A78373D00B04770 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445127272A78373D00B04770 /* Story.swift */; };
 		44907EFE2A78122F00D06A5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44907EFD2A78122F00D06A5C /* AppDelegate.swift */; };
 		44907F002A78122F00D06A5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44907EFF2A78122F00D06A5C /* SceneDelegate.swift */; };
 		44907F022A78122F00D06A5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44907F012A78122F00D06A5C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		445127272A78373D00B04770 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		44907EFA2A78122F00D06A5C /* Destini-Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destini-Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44907EFD2A78122F00D06A5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44907EFF2A78122F00D06A5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		445127252A78362700B04770 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44907F062A78123000D06A5C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		445127262A78370E00B04770 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				445127272A78373D00B04770 /* Story.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		44907EF12A78122F00D06A5C = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +78,9 @@
 				44907EFF2A78122F00D06A5C /* SceneDelegate.swift */,
 				44907F012A78122F00D06A5C /* ViewController.swift */,
 				44907F032A78122F00D06A5C /* Main.storyboard */,
-				44907F062A78123000D06A5C /* Assets.xcassets */,
 				44907F082A78123000D06A5C /* LaunchScreen.storyboard */,
+				445127262A78370E00B04770 /* Model */,
+				445127252A78362700B04770 /* Resources */,
 				44907F0B2A78123000D06A5C /* Info.plist */,
 			);
 			path = "Destini-Code";
@@ -141,6 +160,7 @@
 				44907F022A78122F00D06A5C /* ViewController.swift in Sources */,
 				44907EFE2A78122F00D06A5C /* AppDelegate.swift in Sources */,
 				44907F002A78122F00D06A5C /* SceneDelegate.swift in Sources */,
+				445127282A78373D00B04770 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
